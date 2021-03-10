@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import demo from './demo'
+import demo from './InputAutoComplete'
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(demo),
+    render: h => h(demo),
 }).$mount('#app')
