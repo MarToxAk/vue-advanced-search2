@@ -1,6 +1,6 @@
 <template>
     <div class="autocomplete">
-        <input type="text" autocomplete="off" :class="className" :value="value" 
+        <input autocomplete="off" type="text" :class="className" :value="value" 
             :id="id" :name="name" :placeholder="placeholder">
     </div>
 </template>
